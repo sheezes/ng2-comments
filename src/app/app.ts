@@ -5,7 +5,7 @@ import { CommentForm } from './components/comment-form/comment-form';
   selector: 'app',
   templateUrl: './app.html',
   directives: [ CommentForm ],
-  styles: [`#ng2-comments { font-family: Arial; font-size: 13px; }`]
+  styles: [`#ng2-comments { font-family: Arial; font-size: 1.1em; }`]
 })
 export class App {
 

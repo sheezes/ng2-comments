@@ -1,4 +1,4 @@
 <div>
-    <textarea placeholder="Add your comment"></textarea>
-    <button (click)="c()">Add</button>
+    <textarea [(ngModel)]="commentText" placeholder="Add your comment"></textarea>
+    <button (click)="addComment()">Add</button>
 </div>
