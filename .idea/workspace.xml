@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa076cd-0346-4ae0-a02b-7cd3eebb0e40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/components/comment-form/comment-form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/components/comment-form/comment-form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/components/comment-form/comment-form.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/classes/comment.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/components/comment/comment.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/services/comments.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ng2-comments.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ng2_comments_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\app.routes.ts" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\about\about.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\about\about.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\about\about.ts" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\home\home.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\home\home.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\home\home.ts" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\repo-browser\repo-browser.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\repo-browser\repo-browser.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\repo-browser\repo-browser.ts" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\repo-detail\repo-detail.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\repo-detail\repo-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\repo-detail\repo-detail.ts" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\repo-list\repo-list.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\repo-list\repo-list.ts" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\services\github.ts" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\shai\dev\ng2-comments\src\favicon.ico" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\shai\dev\ng2-comments\src\app\components\repo-list\repo-list.css" afterPath="$PROJECT_DIR$/src/app/components/comment/comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.html" afterPath="$PROJECT_DIR$/src/app/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.ts" afterPath="$PROJECT_DIR$/src/app/app.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.browser.ts" afterPath="$PROJECT_DIR$/src/main.browser.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ng2-comments.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,18 +22,7 @@
     <favorites_list name="ng2-comments" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21413276">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -174,6 +125,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -215,6 +167,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7fa076cd-0346-4ae0-a02b-7cd3eebb0e40" name="Default" comment="" />
@@ -226,7 +181,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -235,7 +190,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43506494" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34632036" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -246,6 +201,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -379,7 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21413276">
+        <state vertical-scroll-proportion="0.18214937">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
