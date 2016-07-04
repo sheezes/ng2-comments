@@ -1,10 +1,12 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
 import { Comment } from '../../classes/comment';
 
 @Component({
     selector: 'comment',
     templateUrl: './comment.html',
-    inputs: [ 'data' ]
+    styleUrls: ['./comment.css'],
+    inputs: [ 'data' ],
+    encapsulation: ViewEncapsulation.None
 })
 export class CommentComponenet {
 

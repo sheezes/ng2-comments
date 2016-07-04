@@ -1,0 +1,71 @@
+.comment {
+    clear: both;
+    font-size: 0.9em;
+    border-bottom: 1px solid #d4dade;
+    padding: 10px 10px 8px 10px;
+    overflow: hidden;
+}
+
+.poster {
+    float: left;
+    margin: 0 13px 0 3px;
+}
+
+.comment-head {
+    font-size: 0.8em;
+    color: #8a949a;
+}
+
+.poster .fa {
+    font-size: 1.35em;
+    color: #fff;
+    padding: 7px 4px 1px 4px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.comment-body {
+    float: left;
+    width: calc(100% - 52px);
+    line-height: 1.4em;
+    color: #59646b;
+}
+
+.comment-actions {
+    margin-top: 5px;
+    font-size: 0.85em;
+}
+
+.comment-dislikes {
+    font-size: 0.8em;
+}
+
+.comment-likes {
+    font-size: 0.8em;
+    margin-right: 10px;
+}
+
+.comment-actions .fa {
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.comment-actions .fa:hover {
+    color: #1a84d8;
+}
+
+.comment-actions .fa:active {
+    position: relative;
+    top: 1px;
+}
+
+@keyframes like-get-big {
+    0% { transform: scale(1); }
+    33% { transform: scale(1.4); }
+    66% { transform: scale(0.6); }
+    100% { transform: scale(1); }
+}

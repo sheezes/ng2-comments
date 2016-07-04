@@ -15,6 +15,6 @@ export class CommentForm {
 
     addComment() {
         this.commentsService.addComment(this.commentText,'Shai');
-        console.log(this.commentsService.comments)
+        this.commentText = null;
     }
 }

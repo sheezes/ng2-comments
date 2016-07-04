@@ -1,4 +1,23 @@
-<div>
-    <br/>{{ data.comment }}<br/>
-    Posted by {{ data.poster }} on {{ data.datePosted }}<br/>
+<div class="comment">
+    <div class="poster">
+        <i [style.background]="data.color" class="fa {{data.icon}}"></i>
+
+    </div>
+
+    <div class="comment-body">
+        <div class="comment-head">
+            <b>{{ data.poster }}</b> - {{ data.datePosted | date:'short'}}
+        </div>
+
+        {{ data.comment }}
+
+        <div class="comment-actions">
+            <i class="fa fa-thumbs-o-up"></i>
+            <span class="comment-likes">36</span>
+
+            <i class="fa fa-thumbs-o-down"></i>
+            <span class="comment-dislikes">7</span>
+        </div>
+
+    </div>
 </div>
