@@ -1,3 +1,5 @@
 <div id="ng2-comments">
     <comment-form></comment-form>
+    <comment *ngFor="let cmnt of commentsService.comments" comment [data]="cmnt"></comment>
+
 </div>

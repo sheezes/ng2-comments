@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgModel } from '@angular/common';
-import { Comment } from '../../classes/comment';
+import { Comments } from '../../services/comments';
 
 @Component({
     selector: 'comment-form',
@@ -11,9 +11,10 @@ export class CommentForm {
 
     commentText:String;
 
-    constructor() {}
+    constructor(private commentsService:Comments) {}
 
     addComment() {
-        console.log(this.commentText)
+        this.commentsService.addComment(this.commentText,'Shai');
+        console.log(this.commentsService.comments)
     }
 }

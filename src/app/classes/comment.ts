@@ -1,9 +1,22 @@
 export class Comment {
 
-    constructor(private comment:String, private user: String, private date:Date) {}
+    constructor(private _comment:String,
+                private _user: String,
+                private id:Number,
+                private _date:Date = new Date()) {
+    }
 
-    getComment() {
-        return this.comment;
+    get comment():String {
+        return this._comment;
+    }
+
+    get poster():String {
+        return this._user;
+    }
+
+
+    get datePosted():Date {
+        return this._date;
     }
 
 }

@@ -4,16 +4,16 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class Comments {
 
-    comments:Array<Comment> = [];
+    _comments:Array<Comment> = [];
 
     constructor() {}
 
-    getComments() {
-        return this.comments;
+    get comments():Array<Comment> {
+        return this._comments;
     }
 
-    getCommentById(index:Number) {
-        return this.comments[index];
+    addComment(text:String = '', user:String = '') {
+        this._comments.push(new Comment(text, user, this._comments.length));
     }
 
 }
