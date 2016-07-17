@@ -19,7 +19,7 @@
 .poster .fa {
     font-size: 1.35em;
     color: #fff;
-    padding: 7px 4px 1px 4px;
+    padding: 7px 4px 2px 5px;
     border-radius: 50%;
     display: inline-block;
     width: 27px;
@@ -38,6 +38,9 @@
 .comment-actions {
     margin-top: 5px;
     font-size: 0.85em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
 .comment-dislikes {

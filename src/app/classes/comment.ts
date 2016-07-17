@@ -6,6 +6,9 @@ export class Comment {
     static COLORS:Array<String> = ['#f9a73d', '#f14c84', '#0ab9a9', '#2b91e2', '#942be2', '#699ab1',
         '#fbb6e2', '#d8cc66', '#2fcc8c', '#4852d2', '#bfbaba', '#ec1f1f','#0eb12b','#0e4eb1','#795548'];
 
+
+    private _votes:any = {};
+
     constructor(private _comment:String,
                 private _user: String,
                 private id:Number,
@@ -16,6 +19,10 @@ export class Comment {
         this._icon = Comment.ICONS[Math.floor(Math.random() * Comment.ICONS.length)];
         this._color = Comment.COLORS[Math.floor(Math.random() * Comment.COLORS.length)];
 
+        this._votes = {
+            good: 0,
+            bad: 0
+        }
     }
 
     get comment():String {
@@ -36,6 +43,22 @@ export class Comment {
 
     get datePosted():Date {
         return this._date;
+    }
+
+    get goodVotes():Number {
+        return this._votes.good;
+    }
+
+    get badVotes():Number {
+        return this._votes.bad;
+    }
+
+    vote(good:Boolean):void {
+        if (good) {
+            this._votes.good++;
+        } else {
+            this._votes.bad++;
+        }
     }
 
 }

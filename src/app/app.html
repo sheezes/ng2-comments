@@ -1,4 +1,11 @@
 <div id="ng2-comments">
     <comment-form></comment-form>
-    <comment *ngFor="let cmnt of commentsService.comments" comment [data]="cmnt"></comment>
+
+    <div id="SortBy">
+        Sort by date
+        <span (click)="changeSortingOrder()" *ngIf="reverseDate">descending </span>
+        <span (click)="changeSortingOrder()" *ngIf="!reverseDate">ascending </span>
+    </div>
+
+    <comment *ngFor="let cmnt of (commentsService.comments | SortByField: 'datePosted':reverseDate)" [data]="cmnt"></comment>
 </div>

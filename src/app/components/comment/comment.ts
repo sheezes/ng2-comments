@@ -14,4 +14,8 @@ export class CommentComponenet {
 
     constructor() {}
 
+    vote(good:Boolean):void {
+        this.data.vote(good);
+    }
+
 }

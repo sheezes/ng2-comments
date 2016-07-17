@@ -12,11 +12,11 @@
         {{ data.comment }}
 
         <div class="comment-actions">
-            <i class="fa fa-thumbs-o-up"></i>
-            <span class="comment-likes">36</span>
+            <i class="fa fa-thumbs-o-up" (click)="vote(true)"></i>
+            <span class="comment-likes">{{ data.goodVotes }}</span>
 
-            <i class="fa fa-thumbs-o-down"></i>
-            <span class="comment-dislikes">7</span>
+            <i class="fa fa-thumbs-o-down" (click)="vote(false)"></i>
+            <span class="comment-dislikes">{{ data.badVotes }}</span>
         </div>
 
     </div>

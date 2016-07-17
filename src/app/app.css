@@ -1,0 +1,19 @@
+#ng2-comments {
+    font-family: Arial;
+    font-size: 1.1em;
+}
+
+#SortBy {
+    margin: 16px 0 35px 0;
+    font-size: 0.7em;
+    color: #a0a0a0;
+}
+
+#SortBy span {
+    color: #1a84d8;
+    cursor: pointer;
+}
+
+#SortBy span:hover {
+    text-decoration: underline;
+}

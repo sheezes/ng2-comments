@@ -1,19 +1,33 @@
 import { Component, Input } from '@angular/core';
-import { NgFor } from '@angular/common';
+import { NgFor, NgIf } from '@angular/common';
+import { SortByField } from './pipes/SortByField';
 import { CommentForm } from './components/comment-form/comment-form';
 import { CommentComponenet } from './components/comment/comment';
 import { Comments } from './services/comments';
+
 
 
 @Component({
     selector: 'app',
     templateUrl: './app.html',
     directives: [CommentForm, CommentComponenet],
-    styles: [`#ng2-comments { font-family: Arial; font-size: 1.1em; }`],
-    providers: [Comments]
+    styleUrls: ['app.css'],
+    providers: [Comments],
+    pipes: [SortByField]
 })
 export class App {
 
-    constructor(private commentsService:Comments) {}
+    _reverseDate:Boolean = true;
 
+    constructor(private commentsService:Comments) {
+        this._reverseDate = true;
+    }
+
+    changeSortingOrder() {
+        this._reverseDate = !this.reverseDate;
+    }
+
+    get reverseDate() {
+        return this._reverseDate;
+    }
 }
